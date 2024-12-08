@@ -18,45 +18,61 @@ while exit == False:
             print("Your Input is Rock")
             print("Computer Input is Rock")
             print("It is a Tie!")
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
         elif computer_input == "paper":
             print("Your Input is Rock")
             print("Computer Input is Paper")
             print("Computer Wins!")
             computer_points += 1
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
         elif computer_input == "scissors":
             print("Your Input is Rock")
             print("Computer Input is scissors")
             print("You Wins!")
             user_points += 1
-
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
     elif user_input == "paper":
         if computer_input == "rock":
             print("Your Input is Paper")
             print("Computer Input is Rock")
             print("You Win")
             user_points += 1
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
         elif computer_input == "paper":
             print("Your Input is Paper")
             print("Computer Input is Paper")
             print("Tie!")
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
         elif computer_input == "scissors":
             print("Your Input is Paper")
             print("Computer Input is scissors")
             print("Computer Wins!")
             computer_points += 1
-
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
     elif user_input == "scissors":
         if computer_input == "rock":
             print("Your Input is scissors")
             print("Computer Input is Rock")
             print("Computer Win")
             computer_points += 1
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
         elif computer_input == "paper":
             print("Your Input is scissors")
             print("Computer Input is Paper")
             print("You Win")
             user_points +=1
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
         elif computer_input == "scissors":
             print("Your Input is scissors")
             print("Computer Input is scissors")
             print("Tie!")
+            print(f"Your points: {user_points}")
+            print(f"Computer points: {computer_points}")
